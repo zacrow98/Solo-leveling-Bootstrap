@@ -10970,11 +10970,25 @@ textarea.form-control-lg {
 }
 
 #reviews .score-img-carousel {
-  max-width: 40px;
+  max-width: 30px;
 }
-#reviews #main-img-carousel {
-  max-width: 300px;
+#reviews .img-wrapper #main-img-carousel {
+  max-width: 250px;
   border: 5px solid #7836fa;
+  position: relative;
+  z-index: 2;
+}
+#reviews .img-wrapper .back-main-img-carousel {
+  z-index: 1;
+  position: absolute;
+  width: 10%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  padding: 0;
+  background-color: #7836fa;
 }
 
 body {
