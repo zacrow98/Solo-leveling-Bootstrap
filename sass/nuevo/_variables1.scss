@@ -1,0 +1,28 @@
+$indigo:  #7836fa;
+
+$primary: $indigo;
+$secondary: #B8FA36;
+$light: #ffff;
+$dark: #180b31;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "light":      $light,
+  "dark":       $dark, 
+);
+
+$link-color: $secondary;
+$link-decoration: none;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+) !default;
+    

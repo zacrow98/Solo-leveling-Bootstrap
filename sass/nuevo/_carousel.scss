@@ -1,0 +1,12 @@
+@import 'variables1';
+
+#reviews {
+    .score-img-carousel {
+        max-width: 40px;
+    }
+    #main-img-carousel {
+        max-width: 300px;
+        border: 5px solid $primary;
+        
+    }
+}

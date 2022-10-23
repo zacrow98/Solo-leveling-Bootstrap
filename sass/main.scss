@@ -1,0 +1,39 @@
+@import 'nuevo/variables1';
+
+
+
+@import 'bootstrap/bootstrap';
+@import 'nuevo/hero';
+@import 'nuevo/icon-figure';
+@import 'nuevo/gm-banner';
+@import 'nuevo/carousel';
+
+body {
+    background-color: rgb(85, 85, 85);
+    color: $light;
+}
+
+.main-heading {
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+
+.secondary-heading {
+    font-family: serif;
+    font-weight: 400;
+    margin-bottom: .2rem;
+    line-height: 1;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+
+@media (max-width: 677px) {
+    .hero{
+        background-image: url(/images/wallpapermin.jpg);
+        align-items: initial;
+    }      
+};
