@@ -10972,23 +10972,36 @@ textarea.form-control-lg {
 #reviews .score-img-carousel {
   max-width: 30px;
 }
+#reviews .img-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
 #reviews .img-wrapper #main-img-carousel {
-  max-width: 250px;
+  max-width: 25vh;
   border: 5px solid #7836fa;
   position: relative;
   z-index: 2;
 }
-#reviews .img-wrapper .back-main-img-carousel {
+#reviews .img-wrapper span {
   z-index: 1;
   position: absolute;
-  width: 10%;
-  left: 0;
+  height: 150%;
+  width: 20%;
+  background-color: #7836fa;
   top: 0;
   bottom: 0;
+  left: 0;
   right: 0;
-  margin: auto;
-  padding: 0;
-  background-color: #7836fa;
+  margin: -1rem;
+}
+#reviews .img-wrapper span .a-90-grados {
+  justify-content: start;
+  font-size: 6rem;
+  padding: auto;
+  margin: 9rem auto;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
 }
 
 body {
